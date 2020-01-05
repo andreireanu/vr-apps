@@ -23,13 +23,13 @@ This Unity project lets you define and use your own static gestures in a VR appl
 Use  ```git clone``` to download the project:
 
 ```
-git clone ....
+git clone https://github.com/AndreiUngureanu101/vr-apps --single-branch StaticGesturesRecognition
 ```
 
 ## Running the application
 
 Open the ```SampleScene``` in the ```Assets\Scenes``` folder and run it using the ```Play``` button. The system is able to detect two predefined gestures, irrespective of the hand used:<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Gesture 1](Images/Gesture1.png)  &nbsp; &nbsp;  ![Gesture 2](Images/Gesture2.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Gesture 1](Images/Gesture1.png)  &nbsp; &nbsp;  ![Gesture 2](Images/Gesture2.png)
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Gesture 1: Like
