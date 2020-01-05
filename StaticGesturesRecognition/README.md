@@ -20,10 +20,12 @@ This Unity project lets you define and use your own static gestures in a VR appl
 
 ## Installing
 
-Use  ```git clone``` to download the project:
+You can simply download the whole repository or run the following command to get just this app:
 
 ```
-git clone https://github.com/AndreiUngureanu101/vr-apps --single-branch StaticGesturesRecognition
+git clone --depth 1 --quiet --no-checkout --filter=combine:blob:none+tree:0 "https://github.com/AndreiUngureanu101/vr-apps" Unity
+cd Unity
+git checkout master -- StaticGesturesRecognition/
 ```
 
 ## Running the application
