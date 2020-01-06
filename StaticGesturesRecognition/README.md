@@ -5,7 +5,7 @@ This Unity project lets you define and use your own static gestures in a VR appl
 ## Hardware requirements
 
 * PC
-* [Oculus Rift headset](https://www.oculus.com/rift) (even though I haven't tested it on an [Oculus Rift S](https://www.oculus.com/rift-s/) it should work as well)
+* [Oculus Rift headset](https://www.oculus.com/rift)
 * [Leap Motion controller](https://www.leapmotion.com/) mounted on the VR headset. Please see this link for more details: https://developer.leapmotion.com/documentation/v4/vrar.html
 
 
@@ -13,7 +13,7 @@ This Unity project lets you define and use your own static gestures in a VR appl
 ## Software requirements
 
 * Windows 10
-* [Oculus application](https://www.oculus.com/setup/) for your specific headset
+* [Oculus application](https://www.oculus.com/setup/) 
 * [Unity](https://unity.com/) (tested on version 2019.2.17)
 * [Leap Motion controller VR Setup software](https://developer.leapmotion.com/vr-setup)
 * [python3](https://www.python.org/download/releases/3.0/) (needed for a specific step in formatting the data used for numerically defining the gestures)
