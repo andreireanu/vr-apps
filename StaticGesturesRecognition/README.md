@@ -33,7 +33,7 @@ git checkout master -- StaticGesturesRecognition/
 Open the ```SampleScene``` in the ```Assets\Scenes``` folder and run it using the ```Play``` button. The system is able to detect two predefined gestures, irrespective of the hand used:<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![](Images/Gesture1.PNG)  &nbsp; &nbsp;  ![](Images/Gesture2.png)
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Gesture 1: Like
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Gesture 2: Rock'n'Roll
@@ -63,4 +63,4 @@ In order to define you own detectable gestures please follow these instructions:
 * One more thing: the system calculates an ***ideal*** input vector for each gesture by averaging the training data for each vector. The ```SVM (Support Vector Machine)``` prediction is validated by calculating the ```Euclidean Distance``` between the executed gesture and the ideal input vector for the predicted gesture. This value is compared to the ```Euclidean Distance``` threshold value set in the ```Classifier``` script. If the value is above the threshold the system discards the ```SVM (Support Vector Machine)``` prediction as erroneous. It is set to ```50``` (mm) by default and it will be optimal for most cases. However, if you want to define gestures that are very similar you might want to lower this value in order to be more precise when validating the ```SVM (Support Vector Machine)``` prediction as the similar gestures might be cross-detected.
 
 ## Further work
-Oculus recently released the [hand tracking](https://www.oculus.com/blog/thumbs-up-hand-tracking-now-available-on-oculus-quest/) update for the [Oculus Quest](https://www.oculus.com/quest) and I intend to port this algorithm for this headset so do come back for the update!
+Oculus recently released the [hand tracking](https://www.oculus.com/blog/thumbs-up-hand-tracking-now-available-on-oculus-quest/) update for the [Oculus Quest](https://www.oculus.com/quest) and I intend to port the algorithm for this headset so do come back for the update!
