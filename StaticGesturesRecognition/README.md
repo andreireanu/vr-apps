@@ -20,10 +20,10 @@ This Unity project lets you define and use your own static gestures in a VR appl
 
 ## Installing
 
-You can simply download the whole repository or run the following command to get just this app:
+You can simply download the whole repository or run the following commands to clone just this project:
 
 ```
-git clone --depth 1 --quiet --no-checkout --filter=combine:blob:none+tree:0 "https://github.com/AndreiUngureanu101/vr-apps" Unity
+git clone --depth 1 --quiet --no-checkout "https://github.com/AndreiUngureanu101/vr-apps" Unity
 cd Unity
 git checkout master -- StaticGesturesRecognition/
 ```
@@ -52,7 +52,7 @@ In order to define you own detectable gestures please follow these instructions:
 
 * Enable the ```Write Data``` script and set an ```Id``` for your gesture. This is the value that will be returned once your gesture will be detected. Since the system can detect two gestures the default value has been set to ```3```.
 
-* Start the application by pressing ```Play``` and execute the gesture you want your system to detect with your ***LEFT*** hand. Now click the ```Write Input Vectors``` boolean variable in the ```Write Data``` script. This will write a number equal to the ```No Of Input Vectors``` variable of ```json``` objects (one object per line) in the ```TrainDataJson.json``` file. The system uses a ```SVM (Support Vector Machine)``` model that is trained using this data for prediction and ***each*** ```json``` object represents ***one example*** of that gesture.
+* Start the application by pressing ```Play``` and execute the gesture you want your system to detect with your ***LEFT*** hand. Now click the ```Write Input Vectors``` boolean variable in the ```Write Data``` script. This will write a number equal to the ```No Of Input Vectors``` variable of ```json``` objects (one object per line) in the ```TrainDataJson.json``` file. The system uses a ```SVM (Support Vector Machine)``` model that is trained using this data for prediction and ***each*** ```json``` object represents ***one example*** of that gesture (***one*** input vector).
 
 * After the data has been written the ```Write Input Vectors``` variable will untick itself. Now you can restart the process and write more ```json``` objects to the drive.  It is recommended to use between ```50``` and ```100``` examples for each gesture. Note that the value of the ```No Of Input Vectors``` has been set to ```10``` by default and that for each of the two gestures that the system can detect ```100``` examples are defined.
 
@@ -60,6 +60,7 @@ In order to define you own detectable gestures please follow these instructions:
 
 * Disable the ```Write Data``` script and uncomment the  ```Debug.Log(...)``` line in the ```Update``` function of the ```Classifier``` script and you're done! Now press the ```Play``` button and the application will be able to detect the gestures that you defined!
 
-## Acknowledgments
+* One more thing: the system calculates an ***ideal*** input vector for each gesture by averaging the training data for each vector. The ```SVM (Support Vector Machine)``` prediction is validated by calculating the ```Euclidean Distance``` between the executed gesture and the ideal input vector for the predicted gesture. This value is compared to the ```Euclidean Distance``` threshold value set in the ```Classifier``` script. If the value is above the threshold the system discards the ```SVM (Support Vector Machine)``` prediction as erroneous. It is set to ```50``` (mm) by default and it will be optimal for most cases. However, if you want to define gestures that are very similar you might want to lower this value in order to be more precise when validating the ```SVM (Support Vector Machine)``` prediction as the similar gestures might be cross-detected.
 
-Special thanks to the wonderful people at [CINETic UNATC ](https://cinetic.arts.ro/en/home/) for making this research project possible!
+## Further work
+Oculus recently released the [hand tracking](https://www.oculus.com/blog/thumbs-up-hand-tracking-now-available-on-oculus-quest/) update for the [Oculus Quest](https://www.oculus.com/quest) and I intend to port this algorithm for this headset so do come back for the update!
