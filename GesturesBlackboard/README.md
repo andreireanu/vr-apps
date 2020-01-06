@@ -1,4 +1,4 @@
-# Gestures Blackboard Application A
+# Gestures Blackboard Application
 
 This VR Application helps you learn 24 Romanian sign-language static gestures, each one corresponding to  a letter of the alphabet.
 
