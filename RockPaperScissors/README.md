@@ -14,7 +14,6 @@ This VR Application challenges you to a rock-paper-scissors duel against Pepe, t
 
 * Windows 10
 * [Oculus application](https://www.oculus.com/setup/)
-* [Unity](https://unity.com/) (tested on version 2019.2.17)
 * [Leap Motion controller VR Setup software](https://developer.leapmotion.com/vr-setup)
 
 
@@ -30,7 +29,7 @@ git checkout master -- RockPaperScissors/
 
 ## Running the application
 
-Double-click on the ```RockPaperScissors.exe``` file to start the application. You'll see Pepe waiting for you to start a new duel. Once you give him the ```OK``` he will execute a ```rock```, a ```paper``` or a ```scissors``` gesture on the count of three. He will then declare if there's a winner, if there's a tie or if you haven't executed one of the three gestures that define this game and after a short break he will be prepared for another duel. 
+Double-click on the ```RockPaperScissors.exe``` file to start the application. You'll see Pepe waiting for you to start a new duel. Once you give him the ```OK``` he will execute a ```rock```, a ```paper``` or a ```scissors``` gesture on the count of three. He will then declare if there's a winner, if there's a tie or if you haven't executed one of the three gestures that define this game and after a short break he will be prepared for another duel.
 
 ## Demo
 You can check a short gif demo of the application below:

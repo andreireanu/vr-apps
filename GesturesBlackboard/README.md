@@ -14,7 +14,6 @@ This VR Application helps you learn 24 Romanian sign-language static gestures, e
 
 * Windows 10
 * [Oculus application](https://www.oculus.com/setup/)
-* [Unity](https://unity.com/) (tested on version 2019.2.17)
 * [Leap Motion controller VR Setup software](https://developer.leapmotion.com/vr-setup)
 
 
