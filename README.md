@@ -6,8 +6,7 @@ A selective list of the VR Apps that I've created using the [Oculus Rift headset
 
 * Static Gesture Recognition: Unity project that lets you define and incorporate any static (frame time duration) gesture in your own application.
 
-* Gestures Blackboard: Application that detects twenty-four Romanian
-sign language gestures
+* Gestures Blackboard: Application that helps you learn twenty-four Romanian sign language static gestures.
 
 * Rock-Paper-Scissors: Application that challenges the player to a rock-paper-scissors duel against the computer.
 
