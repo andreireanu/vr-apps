@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a9afb63d5b910b241bfc6822d973bcc2
+timeCreated: 1506370317
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sugar & Vinegar
+  fontNames:
+  - Sugar & Vinegar
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
