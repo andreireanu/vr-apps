@@ -50,4 +50,8 @@ After a trial is completed you'll find all the recorded data in the ```\ShelfTes
 
 
 ## Running the VR Eye Studio application
-Start the ```VR Eye Studio``` application. The first step is to choose one of the 5 shelves for analysis. Click on ```Incarca Imagine```(Load Image), go to the ```\VR Studio\Shelf Pictures``` and select one of the 5 shelves (Shelf 4 pictured below):
+Start the ```VR Eye Studio``` application. The first step is to choose one of the 5 shelves for analysis. Click on ```Incarca Imagine```(Load Image), go to the ```\VR Studio\Shelf Pictures``` and select one of the 5 shelves (Shelf 4 loaded in the picture below):
+
+![](Media/VREyeStudio1.PNG)
+
+Once you have loaded an image you can load one file to analyze by clicking ```Incarca Fisier```(Load File) or all the files in a folder by clicking ```Incarca Folder```(Load Folder). If you choose the latter make sure you have only recordings corresponding to the particular shelf you wish to analyze. This option aggregates the data from all the files present in the folder.
