@@ -1,16 +1,16 @@
 # VR Apps
 
-A selective list of the VR Apps that I've created using the [Oculus Rift headset](https://www.oculus.com/rift), the [Unity](https://unity.com/) game engine and the [Leap Motion controller](https://www.leapmotion.com/). Source code or builds are provided depending on the application. Please refer to the specific readme file for each project folder.
+A selective list of the VR Apps that I've created using the [Oculus Rift headset](https://www.oculus.com/rift), the [Unity](https://unity.com/) game engine and the [Leap Motion controller](https://www.leapmotion.com/). Source code and builds are provided depending on the application. Please refer to the specific readme file for each project folder.
 
 ## Contents
 
-* Static Gesture Recognition: Unity project that lets you define and incorporate any static (frame time duration) gesture in your own application.
+* ```Gestures Blackboard```: This VR Application helps you learn 24 Romanian sign-language static gestures, each one corresponding to  a letter of the alphabet.
 
-* Gestures Blackboard: Application that helps you learn twenty-four Romanian sign language static gestures.
+* ```Rock Paper Scissors```: This VR Application challenges you to a rock-paper-scissors duel against Pepe, the universal champion at this game!
 
-* Rock-Paper-Scissors: Application that challenges the player to a rock-paper-scissors duel against the computer.
+* ```Shelf Test & VR Eye Studio```: Shelf Test is a market research oriented VR application that helps brands test different shelf planograms. Five shelves with different product placement strategies are created and a respondent chooses the desired products from each shelf according to a predefined scenario (ex: buying soda and chips for guests). General purchase data, like products bought and returned to shelf products is recorded and with the help of VR Eye Studio software specific data is generated, like heatmaps for eye gaze and AOIs (Areas Of Interest) metrics for user defined areas of the shelf.
 
-* Shelf Test & VR Studio: A market research oriented application that helps brands test different shelf product placements. General purchase data (products bought, gave up products, ...) is recorded and with the help of VR Studio software specific data is generated (heatmaps, AOI - Areas of Interests, FI - First Occurance: .)
+* ```Static Gestures Recognition Unity project```: This Unity project lets you define and use your own static gestures in a VR application. A static gesture is defined as having a frame time duration, so the system will be able to detect an executed gesture for every frame.
 
 ## Acknowledgments
 
