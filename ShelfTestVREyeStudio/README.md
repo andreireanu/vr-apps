@@ -57,11 +57,11 @@ Start the ```VR Eye Studio``` application. The first step is to choose one of th
 
 Once you have loaded an image you can load one file to analyze by clicking ```Incarca Fisier```(Load File) or all the files in a folder by clicking ```Incarca Folder```(Load Folder). If you choose the latter make sure you have only recordings corresponding to the particular shelf you wish to analyze. This option aggregates the data from all the files present in the folder. <br>
 Go to the ```VR Studio\Demo Data``` folder and choose a file or folder to load. The application will update itself with some information:
-* The open ended field under the two load buttons will display the name of the loaded file or folder
+* The open ended field under the two load buttons will display the name of the loaded file or folder.
 
-* Two of the four numerical fields in the bottom left of the window will display the start time of this particular shelf test (0 by default) and the end time
+* Two of the four numerical fields in the bottom left of the window will display the start time of this particular shelf test (0 by default) and the end time.
 S
-* The heatmap corresponding to the loaded data will appear superimposed on the shelf picture
+* The heatmap corresponding to the loaded data will appear superimposed on the shelf picture.
 
 You can save the heatmap image as is by clicking ```Salveaza Imaginea```(Save Image) or tweak its appearance before saving by altering ```Transparenta```(the transparent parameter) or ```Punct Cut-Off``` (the cut-off point parameter). In the figure below is the loaded ```eye_2_2.vtr``` file.
 
@@ -80,11 +80,11 @@ The last feature of this application is the possibility to define AOIs (Areas Of
 
 Once you have defined the AOIs of interest you can press ```Scrie Fisier``` (Write File). This will create a ```DataAOI.json``` file in the ```\VR Studio\Shelf Pictures``` folder. This again creates ```json``` objects which contain the ```ID``` and the ```Raft```(Shelf) information plus 3 metrics computed for each AOI:
 
-* 1: The number of seconds that the gaze was upon each AOIs
+* 1: The number of seconds that the gaze was upon each AOIs.
 
-* 2: The duration before the gaze was kept for a whole second on the AOIs
+* 2: The duration before the gaze was kept for a whole second on the AOIs.
 
-* 3: The number of times the AOI was gazed upon for at least one second
+* 3: The number of times the AOI was gazed upon for at least one second.
 
 This data is stored as a key in the ```json``` file with the following format: ```AOIX_Y```, where ```X``` represents the AOI (from 1 to 12) and Y represents the metric (from 1 to 3 according to the description above).
 You can also save the AOIs by clicking ```Salveaza AOI``` and load them by clicking ```Incarca AOI```. <br><br>
