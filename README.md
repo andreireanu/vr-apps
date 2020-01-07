@@ -14,4 +14,4 @@ A selective list of the VR Apps that I've created using the [Oculus Rift headset
 
 ## Acknowledgments
 
-Special thanks to the wonderful people at [CINETic UNATC ](https://cinetic.arts.ro/en/home/) for making this research project possible!
+Special thanks to the wonderful people at [CINETic UNATC ](https://cinetic.arts.ro/en/home/) for making this projects possible!
