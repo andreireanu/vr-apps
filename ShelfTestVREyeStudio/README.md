@@ -66,12 +66,12 @@ S
 You can save the heatmap image as is by clicking ```Salveaza Imaginea```(Save Image) or tweak its appearance before saving by altering ```Transparenta```(the transparent parameter) or ```Punct Cut-Off``` (the cut-off point parameter). In the figure below is the loaded ```eye_2_2.vtr``` file.
 
 ![](Media/VREyeStudio2.PNG)
-<p align="center">Figure 2: ```eye_2_2.vtr``` file heatmap</p>
+<p align="center">Figure 2: eye_2_2.vtr file heatmap</p>
 
 One more important feature is the ability to select a certain time window for which a heatmap should be generated. This is done by entering the start time and the end time in the two empty open ended fields, respectively and clicking the ```Proceaseza``` (Process) button. You can click ```Reseteaza``` (Reset) in order to regenerate  the heatmap for the whole duration. In the figure below is the heatmap generated for the time window between seconds ```10``` and ```15```:
 
 ![](Media/VREyeStudio3.PNG)
-<p align="center">Figure 3: ```eye_2_2.vtr``` file heatmap for seconds ```10``` to ```15```</p>
+<p align="center">Figure 3: eye_2_2.vtr file heatmap for seconds 10 to 15</p>
 
 The last feature of this application is the possibility to define AOIs (Areas Of Interest) for the shelf. This defines the areas of the shelf for which special metrics will be computed. A maximum of ```12``` AOIs can be defined. They are color coded in order to be recognized easily on the image. The image with the defined AOIs can also be saved like a regular heatmap image. In the figure below you can see ```4``` AOIs defined for specific products from the shelf:
 
