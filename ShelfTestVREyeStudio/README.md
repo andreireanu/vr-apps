@@ -53,7 +53,7 @@ After a trial is completed you'll find all the recorded data in the ```\ShelfTes
 Start the ```VR Eye Studio``` application. The first step is to choose one of the 5 shelves for analysis. Click on ```Incarca Imagine```(Load Image), go to the ```\VR Studio\Shelf Pictures``` and select one of the 5 shelves (Shelf 2 loaded in the figure below):
 
 ![](Media/VREyeStudio1.PNG)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure 1: Shelf 2 image loaded
+<p align="center">Figure 1: Shelf 2 image loaded</p
 
 Once you have loaded an image you can load one file to analyze by clicking ```Incarca Fisier```(Load File) or all the files in a folder by clicking ```Incarca Folder```(Load Folder). If you choose the latter make sure you have only recordings corresponding to the particular shelf you wish to analyze. This option aggregates the data from all the files present in the folder. <br>
 Go to the ```VR Studio\Demo Data``` folder and choose a file or folder to load. The application will update itself with some information:
@@ -66,17 +66,17 @@ S
 You can save the heatmap image as is by clicking ```Salveaza Imaginea```(Save Image) or tweak its appearance before saving by altering ```Transparenta```(the transparent parameter) or ```Punct Cut-Off``` (the cut-off point parameter). In the figure below is the loaded ```eye_2_2.vtr``` file.
 
 ![](Media/VREyeStudio2.PNG)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure 2: ```eye_2_2.vtr``` file heatmap
+<p align="center">Figure 2: ```eye_2_2.vtr``` file heatmap</p>
 
 One more important feature is the ability to select a certain time window for which a heatmap should be generated. This is done by entering the start time and the end time in the two empty open ended fields, respectively and clicking the ```Proceaseza``` (Process) button. You can click ```Reseteaza``` (Reset) in order to regenerate  the heatmap for the whole duration. In the figure below is the heatmap generated for the time window between seconds ```10``` and ```15```:
 
 ![](Media/VREyeStudio3.PNG)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure 3: ```eye_2_2.vtr``` file heatmap for seconds ```10``` to ```15```
+<p align="center">Figure 3: ```eye_2_2.vtr``` file heatmap for seconds ```10``` to ```15```</p>
 
 The last feature of this application is the possibility to define AOIs (Areas Of Interest) for the shelf. This defines the areas of the shelf for which special metrics will be computed. A maximum of ```12``` AOIs can be defined. They are color coded in order to be recognized easily on the image. The image with the defined AOIs can also be saved like a regular heatmap image. In the figure below you can see ```4``` AOIs defined for specific products from the shelf:
 
 ![](Media/VREyeStudio4.PNG)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure 4: 4 AOIs defined for Shelf 4
+<p align="center">Figure 4: 4 AOIs defined for Shelf 4</p>
 
 Once you have defined the AOIs of interest you can press ```Scrie Fisier``` (Write File). This will create a ```DataAOI.json``` file in the ```\VR Studio\Shelf Pictures``` folder. This again creates ```json``` objects which contain the ```ID``` and the ```Raft```(Shelf) information plus 3 metrics computed for each AOI:
 
