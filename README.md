@@ -1,10 +1,10 @@
 # VR Apps
 
-A selective portofolio of VR Apps that I've created using the [Oculus Rift headset](https://www.oculus.com/rift), the [Leap Motion controller](https://www.leapmotion.com/) and the [Unity](https://unity.com/) game engine. Source code and builds are provided depending on the application. Please refer to the specific readme file for each project folder.
+A selective portfolio of VR Apps that I've created using the [Oculus Rift headset](https://www.oculus.com/rift), the [Leap Motion controller](https://www.leapmotion.com/) and the [Unity](https://unity.com/) game engine. Source code and builds are provided depending on the application. Please refer to the specific readme file for each project folder.
 
 ## Contents
 
-* ```Gestures Blackboard```: This VR Application recognizes  24 Romanian sign-language static gestures, each one corresponding to  a letter of the alphabet.
+* ```Gestures Blackboard```: This VR Application recognizes 24 Romanian sign-language static gestures, each one corresponding to  a letter of the alphabet.
 
 * ```Rock Paper Scissors```: This VR Application challenges the player to a rock-paper-scissors duel against the character Pepe, the universal champion at this game!
 
