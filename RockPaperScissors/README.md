@@ -1,6 +1,6 @@
 # Rock Paper Scissors Application
 
-This VR Application challenges you to a rock-paper-scissors duel against Pepe, the universal champion at this game!
+This VR Application challenges the player to a rock-paper-scissors duel against the character Pepe, the universal champion at this game!
 
 ## Hardware requirements
 

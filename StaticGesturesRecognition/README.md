@@ -1,6 +1,6 @@
 # Static Gestures Recognition Unity project
 
-This Unity project lets you define and use your own static gestures in a VR application. A static gesture is defined as having a frame time duration, so the system will be able to detect an executed gesture for every frame.
+This Unity project lets the user define and utilize her/his own static gestures in a VR application. A static gesture is defined as having a frame time duration, so the system will be able to detect an executed gesture for every frame.
 
 ## Hardware requirements
 

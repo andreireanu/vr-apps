@@ -1,6 +1,6 @@
 # Shelf Test & VR Eye Studio Applications
 
-Shelf Test is a market research oriented VR application that helps brands test different shelf planograms. Five shelves with different product placement strategies are created and a respondent chooses the desired products from each shelf according to a predefined scenario (ex: buying soda and chips for guests). General purchase data, like products bought and returned to shelf products is recorded and with the help of VR Eye Studio software specific data is generated, like heatmaps for eye gaze and AOIs (Areas Of Interest) metrics for user defined areas of the shelf.
+Shelf Test is a market research oriented VR application that helps brands test different shelf planograms. Five shelves with different product placement strategies are created and a respondent chooses the desired products from each shelf according to a predefined scenario (ex: buying snacks and beverages for her/his guests). General purchase data, like products bought and returned to shelf is recorded and specific data is generated with the help of VR Eye Studio software, like heatmaps for eye gaze and AOIs (Areas Of Interest) metrics for areas of the shelf defined by the user.
 
 ## Hardware requirements
 
