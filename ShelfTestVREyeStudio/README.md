@@ -25,7 +25,7 @@ You can simply download the whole repository or run the following commands to cl
 ```
 git clone --depth 1 --quiet --no-checkout "https://github.com/AndreiUngureanu101/vr-apps" Apps
 cd Apps
-git checkout master -- ShelfTestVrEyeStudio/
+git checkout master -- ShelfTestVREyeStudio/
 ```
 Furthermore you'll need to install the VR Eye Studio Application by going into the ```\VR Studio\Compile\for_redistribution``` and running ```\VREyeStudio_web.exe```. This will also install some ```Matlab``` dependencies that need to be downloaded from the web so please be patient.
 
