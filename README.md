@@ -1,6 +1,6 @@
 # VR Apps
 
-A selective list of the VR Apps that I've created using the [Oculus Rift headset](https://www.oculus.com/rift), the [Unity](https://unity.com/) game engine and the [Leap Motion controller](https://www.leapmotion.com/). Source code and builds are provided depending on the application. Please refer to the specific readme file for each project folder.
+A selective portofolio of VR Apps that I've created using the [Oculus Rift headset](https://www.oculus.com/rift), the [Leap Motion controller](https://www.leapmotion.com/) and the [Unity](https://unity.com/) game engine. Source code and builds are provided depending on the application. Please refer to the specific readme file for each project folder.
 
 ## Contents
 
