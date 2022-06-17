@@ -22,7 +22,7 @@ This VR Application recognizes  24 Romanian sign-language static gestures, each 
 You can simply download the whole repository or run the following commands to clone just this project:
 
 ```
-git clone --depth 1 --quiet --no-checkout "https://github.com/AndreiUngureanu101/vr-apps" Unity
+git clone --depth 1 --quiet --no-checkout "https://github.com/ardei/vr-apps" Unity
 cd Unity
 git checkout master -- GesturesBlackboard/
 ```
