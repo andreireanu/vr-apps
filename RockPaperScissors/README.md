@@ -22,7 +22,7 @@ This VR Application challenges the player to a rock-paper-scissors duel against 
 You can simply download the whole repository or run the following commands to clone just this project:
 
 ```
-git clone --depth 1 --quiet --no-checkout "https://github.com/ardrei/vr-apps" Unity
+git clone --depth 1 --quiet --no-checkout "https://github.com/andreireanu/vr-apps" Unity
 cd Unity
 git checkout master -- RockPaperScissors/
 ```
