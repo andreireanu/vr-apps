@@ -23,7 +23,7 @@ Shelf Test is a market research oriented VR application that helps brands test d
 You can simply download the whole repository or run the following commands to clone just this project:
 
 ```
-git clone --depth 1 --quiet --no-checkout "https://github.com/ardrei/vr-apps" Apps
+git clone --depth 1 --quiet --no-checkout "https://github.com/andreireanu/vr-apps" Apps
 cd Apps
 git checkout master -- ShelfTestVREyeStudio/
 ```
